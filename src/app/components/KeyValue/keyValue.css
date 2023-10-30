@@ -1,0 +1,11 @@
+.keyValue {
+    /* white-space: nowrap; */
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    text-align: end;
+}
+
+/* .keyValue:hover {
+    white-space: break-spaces!important;
+    word-wrap: break-word;
+} */

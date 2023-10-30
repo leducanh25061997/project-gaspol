@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "FeeSumary": [
+        {
+          "id": 1,
+          "idTransaction": "Init Fee",
+          "XXXXX": 500000,
+          "amount": 500000
+        },
+        {
+          "id": 2,
+          "idTransaction": "Anual Fee",
+          "XXXXX": 1000000,
+          "amount": 1000000
+        },
+        {
+          "id": 3,
+          "idTransaction": "Club Processing Fee",
+          "XXXXX": 10000,
+          "amount": 10000
+        },
+        {
+          "id": 4,
+          "idTransaction": "Sub Total",
+          "XXXXX": 500000,
+          "amount": 500000
+        },
+        { "id": 5, "idTransaction": "Tax", "XXXXX": "10%", "amount": 151000 },
+        {
+          "id": 7,
+          "total": 1610000
+        }
+      ],
+      "clubName": "Club Standard",
+      "clubCode": "65464654",
+      "bankName": "Aasd 8HA",
+      "bankAccount": "46546546546",
+      "bankHolderName": "Nguyen Nguyen",
+      "clubCategories": [
+        {
+          "id": 1,
+          "name": "GrassTrack"
+        },
+        {
+          "id": 2,
+          "name": "Grag Race"
+        },
+        {
+          "id": 3,
+          "name": "Balap Motor"
+        },
+        {
+          "id": 4,
+          "name": "Karting"
+        },
+        {
+          "id": 5,
+          "name": "Time Rally"
+        },
+        {
+          "id": 6,
+          "name": "Motocross"
+        },
+        {
+          "id": 7,
+          "name": "Speed Offroad"
+        },
+        {
+          "id": 8,
+          "name": "Drifting"
+        }
+      ]
+    }
+  ]
+}

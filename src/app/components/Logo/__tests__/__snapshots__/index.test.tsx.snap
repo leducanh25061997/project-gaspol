@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root css-1janyvp"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-ksnwlb-MuiTypography-root"
+  >
+    GASPOL!
+  </p>
+  <span
+    class="MuiTypography-root MuiTypography-body1 css-8mnqxp-MuiTypography-root"
+  >
+    By IMI
+  </span>
+</div>
+`;

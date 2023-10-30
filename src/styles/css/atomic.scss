@@ -1,0 +1,162 @@
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.x-center {
+  justify-content: center;
+}
+
+.x-between {
+  justify-content: space-between;
+}
+
+.x-end {
+  justify-content: flex-end;
+}
+
+.y-center {
+  align-items: center;
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.rounded-15 {
+  border-radius: 15px;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.rounded-6 {
+  border-radius: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.d-none {
+  display: none;
+}
+
+@for $i from 1 through 50 {
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+  .mx-#{$i} {
+    margin-left: #{$i}px;
+    margin-right: #{$i}px;
+  }
+  .my-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+
+  .pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}px;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i}px;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+  .px-#{$i} {
+    padding-left: #{$i}px;
+    padding-right: #{$i}px;
+  }
+  .py-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+
+  .lh-#{$i} {
+    line-height: #{$i}px;
+  }
+  .fs-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+$font-weight: 100;
+@while $font-weight <= 900 {
+  .fw-#{$font-weight} {
+    font-weight: $font-weight;
+  }
+  $font-weight: $font-weight + 2;
+}
